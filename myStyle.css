@@ -1,0 +1,61 @@
+.container{
+	background-color:LightPink;
+	border-radius:10px;
+	border:2px double white;
+	padding:5px;
+	height:700px;
+}
+
+#heading, button, label{
+	text-align:center;
+	font-family: 'Pacifico', cursive;
+}
+
+#city{
+    border:2px solid pink;
+}
+
+#address{
+    border:2px solid dodgerblue;
+}
+
+input{
+	border-radius:5px;
+	padding:5px;
+	margin:10px;
+}
+
+button{
+	border-radius:10px;
+	padding:5px;
+	margin:5px;
+	color:white;
+	font-size:14px;
+	border-color:transparent;
+	
+}
+#clear{
+	background-color:orange;	
+	float:right;
+}
+
+#btn{
+	background-color:DeepSkyBlue;
+	float:left;
+}
+
+#contentWrapper, #inputsWrapper{
+	display:block;
+	margin: 0 auto;
+	width:600px;
+}
+
+.img{
+	 border:1px double orange;
+}
+
+@media (max-width: 645px), (max-width: 423px) {
+.container{
+	width:645px;
+}
+}
