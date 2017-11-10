@@ -3,7 +3,7 @@
 	border-radius:10px;
 	border:2px double white;
 	padding:5px;
-	height:700px;
+	height:780px;
 }
 
 #heading, button, label{
@@ -52,6 +52,11 @@ button{
 
 .img{
 	 border:1px double orange;
+	 transition: height 2s;
+}
+
+.img:hover {
+	height:580px;
 }
 
 @media (max-width: 645px), (max-width: 423px) {
